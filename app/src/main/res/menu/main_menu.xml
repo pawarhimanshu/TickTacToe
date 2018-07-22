@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+   <item android:title="Reset"
+       android:icon="@drawable/img"
+       android:id="@+id/resetItem"
+       app:showAsAction="always" />
+
+    <item android:title="Board Size" android:id="@+id/Menu2">
+        <menu>
+            <item android:title="3x3" android:id="@+id/size3"/>
+
+            <item android:title="4x4" android:id="@+id/size4"/>
+
+            <item android:title="5x5" android:id="@+id/size5"/>
+        </menu>
+    </item>
+
+</menu>
